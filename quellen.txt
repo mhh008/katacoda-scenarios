@@ -1,0 +1,7 @@
+https://github.com/mhh008/katacoda-scenarios
+https://www.katacoda.community/essentials/scenario-syntax.html#katacoda-s-markdown-extensions
+https://github.com/katacoda/scenario-examples/blob/main/visualise-docker/index.json
+https://github.com/abuckenhofer/katacoda-scenarios/blob/main/postgresql-cstore-fdw/env-init.sh
+
+https://hevodata.com/learn/mariadb-docker/
+https://mariadb.com/kb/en/connecting-to-mariadb/

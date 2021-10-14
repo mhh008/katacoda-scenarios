@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Datenbank starten",
         "text": "step1.md"
       },
       {
@@ -50,7 +50,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
