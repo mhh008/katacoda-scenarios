@@ -49,11 +49,8 @@
       "text": "finish.md"
     }
   },
-  "files": [
-    "../assets/sensor_data.json"
-  ],
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-editor"
   },
   "backend": {
     "imageid": "ubuntu:2004"
