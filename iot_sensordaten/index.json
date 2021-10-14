@@ -1,6 +1,6 @@
 {
   "title": "Verarbeitung von Sensordaten (JSON)",
-  "description": "description",
+  "description": "Im Folgenden werden wir Sensordaten im JSON-Format aus einer Datei einlesen. Diese Daten werden dann in einer Relationalen Datenbank gespeichert. Dazu starten wir einen Container mit einem mariaDB Datenbank Server. Anschließend wird Python verwendet um die Daten einzulesne und zu speichern.",
   "difficulty": "Intermediate",
   "time": "30 Minuten",
   "details": {
@@ -49,8 +49,11 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "../assets/sensor_data.json"
+  ],
   "environment": {
-    "uilayout": "terminal-terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
