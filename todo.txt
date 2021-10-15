@@ -1,6 +1,9 @@
 TODO von außen erreichbare Datenbank erstellen
 
+Den Command versuchen um von außen auf die DB in docker zu connecten
+mysql -u<user> -p<pass> -h $(docker inspect --format '{{ .NetworkSettings.IPAddress }}' <db-container>)
 
+https://stackoverflow.com/questions/33170489/how-can-i-access-my-docker-maria-db
 
 des mti der DB und Docker iwi nochmal schauen.
 testen ob entweder mariadb und python in einem container geht oder ob zwei Container und der eine in sql alchemy darauf zugreifen kann
