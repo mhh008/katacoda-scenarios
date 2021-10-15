@@ -13,3 +13,5 @@ Nun läuft unser Datenbankserver im erstellten Container. Mit `docker ps`{{execu
 ---
 Quellen:  
 https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/
+
+

@@ -1,0 +1,11 @@
+TODO von außen erreichbare Datenbank erstellen
+
+
+
+des mti der DB und Docker iwi nochmal schauen.
+testen ob entweder mariadb und python in einem container geht oder ob zwei Container und der eine in sql alchemy darauf zugreifen kann
+
+also im normalen terminal python laufen lassen und da eifnahc versuchen zur db aufem localhost zu verbinden.
+
+Dafür beim docker run muss --network=host sein, dan läuft der Container auf localhost.
+
