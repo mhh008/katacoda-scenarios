@@ -5,6 +5,6 @@ Dabei speichert eine relationale Datenbank Daten auf einem relationalen Modell. 
 
 
 ---
-Quellen:
-https://www.oracle.com/de/database/what-is-a-relational-database/
+Quellen:  
+https://www.oracle.com/de/database/what-is-a-relational-database/  
 https://www.storage-insider.de/was-ist-ein-relational-database-management-system-rdbms-a-973087/
