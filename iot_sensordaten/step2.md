@@ -9,5 +9,5 @@ Dazu verwenden wir eine fertige Vorlage (das Image). Diese beinhaltet ein mariaD
 Nun läuft unser Datenbankserver im erstellten Container. Mit `docker ps`{{execute}} können wir alle laufenden Container sehen, auch den eben erstellten.
 
 ---
-Quellen:
+Quellen:  
 https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/
