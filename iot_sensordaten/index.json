@@ -30,7 +30,7 @@
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "Datenbank engine",
         "text": "step7.md"
       },
       {
@@ -49,7 +49,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [ {"file": "sensor_data.json", "target": "/root"} ]
+      "host01": [ {"file": ["sensor_data.json", ".env"], "target": "/root"} ]
     }
   },
   "environment": {
