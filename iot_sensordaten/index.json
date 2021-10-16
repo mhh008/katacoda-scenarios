@@ -49,7 +49,10 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [ {"file": ["sensor_data.json", ".env"], "target": "/root"} ]
+      "host01": [ {"file": "sensor_data.json", "target": "/root"},
+        { "file": ".env", "target": "/root" }
+
+      ]
     }
   },
   "environment": {
