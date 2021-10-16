@@ -1,7 +1,7 @@
 Um ein solches RDBMS zu installieren, verwenden wir einen Docker Container.  
 Solche Container stellen eine, vom Host System isolierte Umgebung dar. Docker baut dabei auf dem Host System auf und stellt darüber die Container Umgebungen bereit.  
 Im Gegensatz zu einem Hypervisor (Typ 1), der direkt auf die Infrastruktur aufsetzt, ohne ein Host System.  
-![Docker Container](https://raw.githubusercontent.com/mhh008/katacoda-scenarios/main/assets/docker.png)
+![Docker Container](https://raw.githubusercontent.com/mhh008/katacoda-scenarios/main/iot_sensordaten/assets/docker.png)
 Abb. https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/  
   
 Nun erstellen wir einen solchen Container.  
