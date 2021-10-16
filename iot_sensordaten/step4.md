@@ -12,5 +12,5 @@ Hier sehen wir einen Ausschnitt aus den einzulesenden Sensordaten:
     "sensorId":"5a99c5a8bc2d410019cb8264",  
     "sensorType":"SDS 011"  
 }  
-````
+```
 Im Folgenden lesen wir eine Liste an solchen Objekten ein.
