@@ -1,9 +1,10 @@
-Nun muss noch eine Datenbank erstellt werden, in der die Informationen gespeichert werden sollen.  
-Mit `docker exec -it mariaDbContainer bash`{{execute}} gelangen wir auf die Konsole innerhalb des Containers.  
-Dann gelangen wir mit `mysql -h localhost -u root -p`{{execute}} auf die MariaDB Console um mit der Datenbank zu kommunizieren.  
+Um die Datenbank auch erreichen zu können benötigen wir deren IP Adresse. Diese speichern wir in einer Variablen **DB_IP**. `DP_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariaDbContainer)`{{execute}}  
+
+Nun muss noch eine Datenbank erstellt werden, in der die Informationen gespeichert werden sollen.
+Mit `mysql -h $DP_IP -u root -p`{{execute}} gelangen wir auf die MariaDB Console um mit der Datenbank zu kommunizieren.  
 Wenn zur Passworteingabe aufgefordert wird muss das Passwort **eingegeben** werden, dies ist: **pass**  
 Nun zeigen wir uns alle aktuellen Datenbanken an. `SHOW DATABASES \g`{{execute}}  
 Um die Daten speichern zu können erstellen wir eine neue Datenbank. `CREATE DATABASE daten \g`{{execute}}  
-`SHOW DATABASES \g`{{execute}} Jett sehen wir in der Liste unsere neu erstellte Datenbank "daten".
+`SHOW DATABASES \g`{{execute}} Jetzt sehen wir in der Liste unsere neu erstellte Datenbank "daten".
 
 Wir verlassen die mariaDB Konsole wieder mit `\q`{{execute}}
