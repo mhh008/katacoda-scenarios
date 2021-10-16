@@ -50,7 +50,7 @@
     },
     "assets": {
       "host01": [ {"file": "sensor_data.json", "target": "/root"},
-        { "file": ".env", "target": "/root" }
+        { "file": "db_credentials.env", "target": "/root" }
 
       ]
     }
