@@ -1,5 +1,5 @@
 Um die Daten einzulesen verwenden wir Python.  
-Dabei werden drei Module benötigt, die mit dem Paketverwaltungsprogramm pip installiert werden. `pip install pandas~=1.3.3 SQLAlchemy~=1.4.25 python-dotenv~=0.19.0 mysqlclient~=2.0.3`{{execute}}  
+Dabei werden drei Module benötigt, die mit dem Paketverwaltungsprogramm pip installiert werden. `pip install mysqlclient==2.0.3 python-dotenv==0.19.1 SQLAlchemy==1.4.25 pandas==1.3.3`{{execute}}  
 Nach erfolgter installation gelangen wir mit `python3`{{execute}} in die Python Konsole und können Python Code ausführen.  
 Nun binden wir die Funktion load_dotenv aus dem Modul dotenv ein, dies wir benötigt um auf die gespeicherten Variablen in der Datei zuzugreifen. `from dotenv import load_dotenv`{{execute}}  
 Dann das Modul os, welches ebenso für den Zugriff auf die Umgebungsvariaben benötigt wird. `import os`{{execute}}  
