@@ -1,3 +1,9 @@
+https://www.oracle.com/de/database/what-is-a-relational-database/
+https://www.storage-insider.de/was-ist-ein-relational-database-management-system-rdbms-a-973087/
+https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/
+
+
+
 https://github.com/mhh008/katacoda-scenarios
 https://www.katacoda.community/essentials/scenario-syntax.html#katacoda-s-markdown-extensions
 https://github.com/katacoda/scenario-examples/blob/main/visualise-docker/index.json
@@ -5,3 +11,6 @@ https://github.com/abuckenhofer/katacoda-scenarios/blob/main/postgresql-cstore-f
 
 https://hevodata.com/learn/mariadb-docker/
 https://mariadb.com/kb/en/connecting-to-mariadb/
+
+
+https://docs.sqlalchemy.org/en/14/core/engines.html

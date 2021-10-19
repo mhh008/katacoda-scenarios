@@ -8,10 +8,4 @@ Nun erstellen wir einen solchen Container.
 Dazu verwenden wir eine fertige Vorlage (das Image). Diese beinhaltet ein mariaDB System.  
 Im folgenden Command setzen wir einen Namen für den Container (mariaDbContainer), setzen das Passwort für den root Benutzer (pass) und definieren den erreichbaren Port, sowie welches Image wir laden wollen.  
 `docker run --name mariaDbContainer -e MYSQL_ROOT_PASSWORD=pass -p 3308:3308 -d docker.io/library/mariadb:10.4`{{execute}}  
-Nun läuft unser Datenbankserver im erstellten Container. Mit `docker ps`{{execute}} können wir alle laufenden Container sehen, auch den eben erstellten.  
-  
----
-Quellen:  
-https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/
-
-
+Nun läuft unser Datenbankserver im erstellten Container. Mit `docker ps`{{execute}} können wir alle laufenden Container sehen, auch den eben erstellten.
