@@ -1,4 +1,3 @@
-TODO von außen erreichbare Datenbank erstellen
 
 Den Command versuchen um von außen auf die DB in docker zu connecten
 mysql -u<user> -p<pass> -h $(docker inspect --format '{{ .NetworkSettings.IPAddress }}' <db-container>)
