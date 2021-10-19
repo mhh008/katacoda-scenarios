@@ -25,15 +25,18 @@ Noch versuchen:
 
 Links:
 https://www.katacoda.com/mhh/scenarios/iot_sensordaten
+https://www.katacoda.com/buckenhofer/scenarios/postgresql-cstore-fdw
+https://github.com/abuckenhofer/katacoda-scenarios
 https://www.katacoda.community/essentials/scenario-syntax.html#understanding-katacoda-s-index-json
+
+
+
 https://www.oracle.com/de/database/what-is-a-relational-database/
 https://www.freecodecamp.org/news/how-to-get-a-docker-container-ip-address-explained-with-examples/
 https://hevodata.com/learn/mariadb-docker/
 https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/
-https://github.com/abuckenhofer/katacoda-scenarios
 https://phoenixnap.com/kb/how-to-install-python-3-ubuntu
 https://www.tutorialspoint.com/unix/unix-using-variables.htm
-https://www.katacoda.com/buckenhofer/scenarios/postgresql-cstore-fdw
 https://askubuntu.com/questions/1321141/unable-to-install-mysqlclient-on-ubuntu-20-10
 https://stackoverflow.com/questions/57900531/sqlalchemy-exc-operationalerror-cant-connect-to-mysql-in-docker
 https://gridscale.io/community/tutorials/mysql-benutzer-rechte-zuweisen/
