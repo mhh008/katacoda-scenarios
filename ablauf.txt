@@ -11,6 +11,7 @@ DB_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{en
 echo "$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariaDbContainer)\"" >> db_credentials.env
 apt-get update
 apt install mariadb-client-core-10.1 -y
+clear
 mysql -h $DB_IP -u root -p
 SHOW DATABASES;
 CREATE DATABASE daten;
@@ -23,7 +24,8 @@ SHOW DATABASES;
 5.
 
 virtualenv -p /usr/bin/python3.8 venv && source venv/bin/activate
-pip install pymysql mysql-connector-python python-dotenv pandas
+pip install pymysql mysql-connector-python python-dotenv pandas SQLAlchemy
+clear
 
 TODO hier die Versionen noch angeben
 ./venv/bin/python3
