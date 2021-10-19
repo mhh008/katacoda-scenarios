@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Datenbank (RDBMS)",
+        "title": "RDBMS",
         "text": "step1.md"
       },
       {
@@ -38,11 +38,12 @@
         "text": "step8.md"
       },
       {
-        "title": "Step 9",
+        "title": "Datenbank prüfen",
         "text": "step9.md"
       }
     ],
     "intro": {
+      "code": "env-init.sh",
       "text": "intro.md"
     },
     "finish": {

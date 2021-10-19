@@ -9,34 +9,55 @@ docker ps
 
 DB_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariaDbContainer)
 echo "$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariaDbContainer)\"" >> db_credentials.env
-
-
-
-
-
 apt-get update
 apt install mariadb-client-core-10.1 -y
+mysql -h $DB_IP -u root -p
+SHOW DATABASES;
+CREATE DATABASE daten;
+SHOW DATABASES;
+\q
 
-virtualenv -p /usr/bin/python3.8 venv
-source venv/bin/activate
-pip install pymysql
-pip install mysql-connector-python
-pip install python-dotenv pandas
+4.
+
+
+5.
+
+virtualenv -p /usr/bin/python3.8 venv && source venv/bin/activate
+pip install pymysql mysql-connector-python python-dotenv pandas
+
+TODO hier die Versionen noch angeben
 ./venv/bin/python3
 from dotenv import load_dotenv
 import os
 import pandas
+import sqlalchemy
 import pymysql
+
+6.
+
 df = pandas.read_json("sensor_data.json", convert_dates=['createdAt'])
 df
+
+7.
+
 load_dotenv("db_credentials.env")
-engine_string = f"mysql+pymysql://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}/{os.getenv('DB_DATABASE')}
+engine_string = f"mysql+pymysql://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}/{os.getenv('DB_DATABASE')}"
 engine = sqlalchemy.create_engine(engine_string)
+
+8.
+
 df.to_sql('data', con=engine, index=False, if_exists='replace')
 engine.dispose()
 quit()
+
+9.
+
 mysql -h $DB_IP -u root -p
 use daten
 SHOW TABLES;
-SELECT * FROM data
+SELECT * FROM data;
 \q
+
+TODO finish mit Danke und den Quellen
+TODO intro
+TODO

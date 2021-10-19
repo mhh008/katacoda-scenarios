@@ -1,6 +1,9 @@
 https://www.oracle.com/de/database/what-is-a-relational-database/
 https://www.storage-insider.de/was-ist-ein-relational-database-management-system-rdbms-a-973087/
 https://www.cloudsavvyit.com/490/what-does-docker-do-and-when-should-you-use-it/
+Buckenhofer, Andreas, Lecture@DHBW: Internet der Dinge, 04 Kommunikationsprotokolle, Seite 47 ff.
+https://linuxhint.com/connect_mariadb_pymysql/
+https://pandas.pydata.org/docs/index.html
 
 
 
