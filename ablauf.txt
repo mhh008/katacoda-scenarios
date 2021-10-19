@@ -63,3 +63,5 @@ SELECT * FROM data;
 TODO finish mit Danke und den Quellen
 TODO intro
 TODO
+
+TODO zeit stoppen ob des passt
