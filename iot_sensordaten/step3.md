@@ -1,5 +1,5 @@
 Um die Datenbank auch erreichen zu können benötigen wir deren IP Adresse. Diese speichern wir in einer Variablen **DB_IP**. `DB_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariaDbContainer)`{{execute}}  
-Für unser späteres Skript müssen wir diese Information noch in einer Datei sichern. `echo $DB_IP >> db_credentials.env`{{execute}}  
+Für unser späteres Skript müssen wir diese Information noch in einer Datei sichern. `echo $DB_IP\" >> db_credentials.env`{{execute}}  
 Mit `apt install mariadb-client-core-10.3 -y`{{execute}} installieren wir einen Command Line Client um auf den Datenbankserver (mariaDB) zugreifen zu können.  
 Nun muss noch eine Datenbank erstellt werden, in der die Informationen gespeichert werden sollen.  
 Mit `mysql -h $DP_IP -u root -p`{{execute}} gelangen wir auf die MariaDB Konsole um mit der Datenbank zu kommunizieren.  
