@@ -2,7 +2,7 @@
   "title": "Verarbeitung von Sensordaten (JSON)",
   "description": "Sensordaten im JSON-Format aus einer Datei einlesen und in einer Datenbank speichern.",
   "difficulty": "Intermediate",
-  "time": "30 Minuten",
+  "time": "20 Minuten",
   "details": {
     "steps": [
       {
