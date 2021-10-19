@@ -1,7 +1,7 @@
 Um die Daten einzulesen verwenden wir Python.  
 Zunächst wird eine virtuelle Umgeung für Python erstellt und diese dann aktiviert. `virtualenv -p /usr/bin/python3.8 venv && source venv/bin/activate`{{execute}}
 
-Außerdem werden vier Module benötigt, die mit dem Pakteverwaltungsprogramm pip installiert werden. `pip install python-dotenv pymysql pandas SQLAlchemy`{{execute}}  
+Außerdem werden vier Module benötigt, die mit dem Pakteverwaltungsprogramm pip installiert werden. `pip install python-dotenv pandas SQLAlchemy pymysql`{{execute}}  
 Für eine bessere Übersicht leeren wir den Inhalt des Terminals. `clear`{{execute}}
 
 
