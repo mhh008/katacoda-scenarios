@@ -43,7 +43,6 @@
       }
     ],
     "intro": {
-      "code": "env-init.sh",
       "text": "intro.md"
     },
     "finish": {
@@ -60,6 +59,7 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu:1804"
+    "imageid": "ubuntu:1804",
+    "code": "env-init.sh"
   }
 }
