@@ -8,5 +8,5 @@ Erster Parameter ist der Name der Tabelle in der Datenbank, dann die engine für
 Für dieses Beispiel verwenden wir *replace*  
 `df.to_sql('data', con=engine, index=False, if_exists='replace')`{{execute}}  
 
-Nun kann die Engine also die Verbindung wieder geschlossen werden. `engine.dispose()`{{execute}}  
+Nun kann die Engine, also die Verbindung wieder geschlossen werden. `engine.dispose()`{{execute}}  
 Mit `quit()`{{execute}} verlassen wir Python.
