@@ -3,4 +3,6 @@ Dazu rufen wir im Modul Pandas die Funktion read_json auf. Dieser übergeben wir
 Gespeichert wird das DataFrame in einer Variablen **df**  
 `df = pandas.read_json("sensor_data.json", convert_dates=['createdAt'])`{{execute}}
 
-Wenn wir nun die Variablen `df`{{execute}} Aufrufen, wird ein Ausschnitt der Daten angezeigt.
+Wenn wir nun die Variablen `df`{{execute}} Aufrufen, wird ein Ausschnitt der Daten angezeigt. (vgl. [10] pandas.io.json.read_json)
+
+
